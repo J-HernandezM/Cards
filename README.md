@@ -16,8 +16,6 @@ En lugar de emplear las imágenes de los personajes del juego, se personaliza a�
 
 ## ACCEDE
 
-> "Los BANJO robaos"
-
 Puedes visitar la página desde mi `PORTAFOLIO` en <https://j-hernandezm.github.io> o directamente a través del siguiente [enlace](https://j-hernandezm.github.io/Cards/index.html)
 
 Durante la realización del *proyecto* se avanza en el aprendizaje de temas como:
