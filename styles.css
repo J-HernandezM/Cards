@@ -26,16 +26,14 @@ body{
     justify-content: center;
 }
 .main__title{
-    font-family: "BelweB";
     font-size: 6rem;
-    font-weight:bold;
     margin: 0px;
     color: #57401c;
     /* text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; */
     /* Este es el borde de la letra */
     -webkit-text-stroke: 3px black;
 }
-/* CONTENEDORES */
+/* CONTENEDORES Y CARTAS */
 .main{
     margin-top: 20vh;
     display: flex;
@@ -57,16 +55,20 @@ body{
     height: 382.99px;
     position:relative;
 }
+.cards__card:hover{
+    cursor:pointer;
+    background-color: rgba(255, 255, 255, 0.301);
+}
 .cards__player{
     width: 160px;
     position: absolute;
     left: 50px;
     top: 26px;
-    z-index: 3;
+    z-index: 2;
     border-radius: 70%;
 }
 .cards__img{
-    z-index: 5;
+    z-index: 4;
     position: relative;
 }
 .cards__mana{
@@ -103,21 +105,37 @@ body{
     font-size: 2.6rem;
     z-index: 6;
     -webkit-text-stroke: 1.4px black;
+    
     margin: 0px;
-    top:190px;
-    left: 65px;
     transform: rotate(-4deg);
 }
 .juan{
     left: 66px;
     top: 197px;
 }
-.aleja{
-    left: 66px;
-    top: 195px;
-}
-.jacobo{
-    left: 66px;
+.ale{
     top: 197px;
+    left:65px;
 }
-/* CARTAS */
+.jaco{
+    top: 196px;
+    left: 79px;
+}
+.cards__description{
+    position: absolute;
+    top: 233px;
+    left: 46px;
+    z-index: 5;
+    width: 185px;
+    height: 101px;
+    padding:0px 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.description__text{
+    color:#392a12;
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+    text-align: center;
+}
