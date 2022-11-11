@@ -31,7 +31,7 @@ body{
     color: #57401c;
     /* text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; */
     /* Este es el borde de la letra */
-    -webkit-text-stroke: 3px black;
+    -webkit-text-stroke: 2.7px black;
 }
 /* CONTENEDORES Y CARTAS */
 .main{
