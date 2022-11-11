@@ -1,0 +1,141 @@
+/* OTROS */
+@font-face {
+    font-family: "BelweB";
+    src: url(./fonts/BelweBoldBT.ttf);
+}
+@font-face {
+    font-family: "Belwe";
+    src: url(./fonts/BelweMediumBT.ttf);
+}
+@font-face {
+    font-family: "BelweL";
+    src: url(./fonts/BelweLightBT.ttf);
+}
+*{
+    font-family: "BelweB";
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+    background-image: url(./assets/fondo.JPG);
+    background-size: 100%;
+}
+body{
+    color: #fff;
+    display:flex;
+    justify-content: center;
+}
+.main__title{
+    font-size: 6rem;
+    margin: 0px;
+    color: #57401c;
+    /* text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; */
+    /* Este es el borde de la letra */
+    -webkit-text-stroke: 2.7px black;
+}
+/* CONTENEDORES Y CARTAS */
+.main{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/premium-vector/vector-illustration-with-wood-texture-cartoon-style-text-banner_426735-36.jpg");
+    border-radius: 10%;
+    max-width: 900px;
+    height: 500px;
+    padding:20px;
+    border: 8px #392a12 solid ;
+}
+.cards{
+    display:flex;
+}
+.cards__card{
+    width: 270px;
+    height: 382.99px;
+    position:relative;
+}
+.cards__card:hover{
+    cursor:pointer;
+    background-color: rgba(255, 255, 255, 0.301);
+}
+.cards__player{
+    width: 160px;
+    position: absolute;
+    left: 50px;
+    top: 26px;
+    z-index: 2;
+    border-radius: 70%;
+}
+.cards__img{
+    z-index: 4;
+    position: relative;
+}
+.cards__mana{
+    position: absolute;
+    top: 8px;
+    font-size: 7.3rem;
+    margin: 0;
+    -webkit-text-stroke: 3px black;
+    z-index: 6;
+    left: 16px;
+}
+.manaJacobo{
+    left:18px;
+}
+.manaAleja{
+    left:18px;
+}
+.cards__stat{
+    position: absolute;
+    top: 317px;
+    font-size: 5rem;
+    z-index: 6;
+    -webkit-text-stroke: 3px black;
+    margin: 0px;
+}
+.ataque{
+    left:29px;
+}
+.defensa{
+    right:23px;
+}
+.cards__name{
+    position: absolute;
+    font-size: 2.6rem;
+    z-index: 6;
+    -webkit-text-stroke: 1.4px black;
+    
+    margin: 0px;
+    transform: rotate(-4deg);
+}
+.juan{
+    left: 66px;
+    top: 197px;
+}
+.ale{
+    top: 197px;
+    left:65px;
+}
+.jaco{
+    top: 196px;
+    left: 79px;
+}
+.cards__description{
+    position: absolute;
+    top: 233px;
+    left: 46px;
+    z-index: 5;
+    width: 185px;
+    height: 101px;
+    padding:0px 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.description__text{
+    color:#392a12;
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+    text-align: center;
+}
